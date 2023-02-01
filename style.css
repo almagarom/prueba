@@ -1,0 +1,33 @@
+ /*C103*/
+ /*Comenzamos agregando el estilo a la pagina*/
+ body
+  {
+    /*color del texto*/
+    color: white;
+    /*color del fondo*/
+    background: pink;
+  }
+
+  /*esta es la clase que tiene el titulo de la pagina*/
+  .heading
+  {
+    /*ancho*/
+    width: 80%;
+    /*tamaño de letra*/
+    font-size: 22px;
+  }
+  /*estilos para la seccion donde se verá la camara web*/
+  #camera 
+  {
+    /*tendrá un borde negro punteado, discontiinuo*/
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px; 
+  }
+
+  /*estilos de los nombres de los objetos que se pueden identificar*/
+  .name_of_objects, #result_object_name  , #result_object_accuracy
+  {
+    /*el color de ese texto será amarillo*/
+    color: yellow;
+  }
